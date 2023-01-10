@@ -1,1 +1,1 @@
-# Nullable_Delegate_Exceptions
+Homework for Tuesday (10.01.2023)
