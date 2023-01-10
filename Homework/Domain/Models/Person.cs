@@ -17,5 +17,10 @@ namespace Domain.Models
 			Address = address;
 			Salary = salary;
 		}
-	}
+
+        public override string ToString()
+        {
+			return $"{Name} {Surname} {Address}";
+        }
+    }
 }

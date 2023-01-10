@@ -5,6 +5,6 @@ namespace Service.Services.Interfaces
 {
 	public interface IEmployee
 	{
-		List<Person> FilterBySalary(List<Person> people, Predicate<> func);
+		List<Person> FilterBySalary(Predicate<Person> func, List<Person> people);
 	}
 }
